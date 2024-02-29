@@ -6,9 +6,11 @@ body{
 }
 /*recipiente colori*/
 :root{
-    --det-color: #4c7c8f;
-    --sec-color:#3c5766;
-    --acc-color: #23343d ;
+    --det-color:#2989fb;
+    --sec-color:#4c7c8f;  
+    --acc-color:#3c5766;
+     
+    
 }
 
 /* testo*/
@@ -33,7 +35,7 @@ body{
 .bg-acc{
     background-color: var(--acc-color);
 }
-/*bordi*/
+/*bordi
 .bg-1{
     background-color: var(--det-color-color);
 }
@@ -42,4 +44,8 @@ body{
 }
  .bg-3{
     background-color: var(--acc-color);
+ }*/
+ nav{
+    bs-navbar-toggler-focus-width: none !important;
  }
+   

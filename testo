@@ -5,4 +5,6 @@ color  secondario 60, 87, 102
 20, 29, 34
 terziario 20, 29, 34
 logo 
-
+ colore principale navbar
+bg-dark
+navbar-dark
