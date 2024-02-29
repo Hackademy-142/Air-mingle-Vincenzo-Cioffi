@@ -1,0 +1,45 @@
+body{
+    font-family: "bitter", serif ;
+}
+.font-lato{
+    font-family: "lato" !important;
+}
+/*recipiente colori*/
+:root{
+    --det-color: #4c7c8f;
+    --sec-color:#3c5766;
+    --acc-color: #23343d ;
+}
+
+/* testo*/
+.tx-1{
+  color:var(--det-color);
+}
+
+.tx-2{
+   color:var(--sec-color);
+}
+
+.tx-acc{
+    color: var(--acc-color);
+}
+/*backcolor*/
+.bg-1{
+   background-color:var(--det-color);
+}
+.bg-2{
+     background-color:var(--sec-color);
+}
+.bg-acc{
+    background-color: var(--acc-color);
+}
+/*bordi*/
+.bg-1{
+    background-color: var(--det-color-color);
+}
+.bg-2{
+    background-color: var(--sec-color);
+}
+ .bg-3{
+    background-color: var(--acc-color);
+ }
