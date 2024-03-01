@@ -35,17 +35,26 @@ body{
 .bg-acc{
     background-color: var(--acc-color);
 }
-/*bordi
-.bg-1{
-    background-color: var(--det-color-color);
+/*bordi*/
+
+.bord-1 {
+   border-bottom: 5px solid var(--det-color) !important;
 }
-.bg-2{
-    background-color: var(--sec-color);
+.bord-2 {
+    border-bottom: 5px solid var(--sec-color) !important ;
 }
- .bg-3{
+ .bord-acc {
+    border-bottom: 5px solid var(--acc-color) !important ;
+}
+.destination{
+    position: relative;
+}
+.destination::after{
+    position: absolute;
+    content: "";
+    bottom: -10%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
     background-color: var(--acc-color);
- }*/
- nav{
-    bs-navbar-toggler-focus-width: none !important;
- }
-   
+}
