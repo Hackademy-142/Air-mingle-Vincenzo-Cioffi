@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>E-plane</title>
+  <title>Air-mingle</title>
   <!--link bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!--font-->
@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-lg  bg-white fixed-top p-3" aria-label="Eighth navbar example">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="./logo/logo preferito.png" alt="logo">
+        <img src="./immagini/logo/logo preferito.png" alt="logo">
       </a>
       <button class="navbar-toggler border-0" type="button"data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
         <i class="bi bi-list-task f-3 tx-1"></i>
@@ -29,16 +29,16 @@
       <div class="collapse navbar-collapse" id="navbarsExample07">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item mx-md-3">
-            <a class="nav-link" href="#">home</a>
+            <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item mx-md-3">
-            <a class="nav-link" href="#">destinazioni</a>
+            <a class="nav-link" href="#">Destinazioni</a>
           </li>
           <li class="nav-item mx-md-3">
-            <a class="nav-link" href="#">voli consigliati</a>
+            <a class="nav-link" href="#">Voli consigliati</a>
           </li>
           <li class="nav-item mx-md-3">
-            <a class="nav-link" href="#">prenota voli</a>
+            <a class="nav-link" href="#">Prenota voli</a>
           </li>
         </ul>
         <form class="mb-3 mb-md-0" role="search">
@@ -54,7 +54,7 @@
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
     <div class="offcanvas-header d-flex justify-content-between">
       <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-        <img src="logo/logo preferito.png" alt="">
+        <img src="immagini/logo/logo preferito.png" alt="">
       </h5>
       <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
         <i class="bi bi-x-octagon fs-5 tx-1"></i>
@@ -225,73 +225,75 @@
   <!--i voli consigliati-->
   <div class="container my-5 py-5">
     <div class="row">
-      <div class="col-12 col-md-6">
-        <p class="tx-1 h2">I consigliati</p> 
-        <p class="font-lato lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur iste laboriosam eum non minima nemo ad quia perferendis natus quis nesciunt harum nihil odio itaque rem dolore, inventore consequuntur doloremque!</p>
-        <button class="bg-acc text-white d-block py-2 px-4 rounded-4 font-lato mt-3">
-          Vedi tutte le offerte 
-        </button>
+      <div class="col-12 col-md-6 mb-5">
+        <div class="destination-sticky">
+          <p class="tx-1 h1">I consigliati</p> 
+          <p class="font-lato lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur iste laboriosam eum non minima nemo ad quia perferendis natus quis nesciunt harum nihil odio itaque rem dolore, inventore consequuntur</p>
+          <button class="bg-acc text-white border-0 py-2 px-4 rounded-2 font-lato mt-md-3">
+            Vedi tutte le offerte 
+          </button>
+        </div>
       </div>
-      <div class="col-12 col-md-6 tx-1 mb-3 h4">
+      <div class="col-12 col-md-6 mb-3">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6 mb-3">
-              <div class="card border-0 shadow bord-1 rounded-0" style="width: 18rem;">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="card border-0 bord-1 shadow rounded-0 position-relative d-block mx-auto" style="width: 19rem;">
                 <img src="./immagini/norvegia.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title tx-1">Norvegia</h5>
-                  <p class="card-text font-lato lead text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Norvegia</h5>
+                  <p class="card-text font-lato text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis saepe expedita mollitia nemo magni eos esse</p>
+                  <a href="#" class="text-decoration-none bg-acc text-white border-4 py-2 px-4 rounded-0 font-lato mt-3 bottom-0 end-0 position-absolute">prenota biglietto</a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="card border-0 shadow bord-1 rounded-0" style="width: 18rem;">
-                <img src="./immagini/alaska.jpg" class="card-img-top" alt="...">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="card border-0 bord-1 shadow rounded-0 position-relative d-block mx-auto" style="width: 19rem;">
+                <img src="./immagini/norvegia.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title tx-1">Alaska</h5>
-                  <p class="card-text font-lato text-secondary lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Norvegia</h5>
+                  <p class="card-text font-lato text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis saepe expedita mollitia nemo magni eos esse</p>
+                  <a href="#" class="text-decoration-none bg-acc text-white border-4 py-2 px-4 rounded-0 font-lato mt-3 bottom-0 end-0 position-absolute">prenota biglietto</a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="card border-0 shadow bord-1 rounded-0" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="card border-0 bord-1 shadow rounded-0 position-relative d-block mx-auto" style="width: 19rem;">
+                <img src="./immagini/alaska2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title tx-1">Card title</h5>
-                  <p class="card-text lead text-secondary font-lato">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Norvegia</h5>
+                  <p class="card-text font-lato text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis saepe expedita mollitia nemo magni eos esse</p>
+                  <a href="#" class="text-decoration-none bg-acc text-white border-4 py-2 px-4 rounded-0 font-lato mt-3 bottom-0 end-0 position-absolute">prenota biglietto</a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="card border-0 shadow bord-1 rounded-0" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="card border-0 bord-1 shadow rounded-0 position-relative d-block mx-auto" style="width: 19rem;">
+                <img src="./immagini/norvegia.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title tx-1">Card title</h5>
-                  <p class="card-text lead font-lato text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Norvegia</h5>
+                  <p class="card-text font-lato text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis saepe expedita mollitia nemo magni eos esse</p>
+                  <a href="#" class="text-decoration-none bg-acc text-white border-4 py-2 px-4 rounded-0 font-lato mt-3 bottom-0 end-0 position-absolute">prenota biglietto</a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="card border-0 shadow bord-1 rounded-0" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="card border-0 bord-1 shadow rounded-0 position-relative d-block mx-auto" style="width: 19rem;">
+                <img src="./immagini/francia2.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title tx-1">Card title</h5>
-                  <p class="card-text lead text-secondary foù">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Norvegia</h5>
+                  <p class="card-text font-lato text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis saepe expedita mollitia nemo magni eos esse</p>
+                  <a href="#" class="text-decoration-none bg-acc text-white border-4 py-2 px-4 rounded-0 font-lato mt-3 bottom-0 end-0 position-absolute">prenota biglietto</a>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6">
-              <div class="card border-0 shadow bord-1 rounded-0" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-md-6 mb-5">
+              <div class="card border-0 bord-1 shadow rounded-0 position-relative d-block mx-auto" style="width: 19rem;">
+                <img src="./immagini/giappone.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title tx-1">Card title</h5>
-                  <p class="card-text font-lato lead text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Norvegia</h5>
+                  <p class="card-text font-lato text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex omnis saepe expedita mollitia nemo magni eos esse</p>
+                  <a href="#" class="text-decoration-none bg-acc text-white border-4 py-2 px-4 rounded-0 font-lato mt-3 bottom-0 end-0 position-absolute">prenota biglietto</a>
                 </div>
               </div>
             </div>
@@ -299,6 +301,128 @@
         </div>
       </div>
     </div>
+  </div>
+  
+  
+  <!--form prenotazione-->
+  <div class="container-fluid px-5 my-5">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card border-0 shadow  overflow-hidden">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-sm-6 d-none d-sm-block bg-image"></div>
+              <div class="col-sm-6 p-4">
+                <div class="text-center">
+                  <div class="h3">Contattaci per prenotare i biglietti</div>
+                  <p class="mb-4 text-muted font-lato lead">Metti i tuoi dati nel seguente modulo,verrai contattato a breve</p>
+                </div>
+                
+                
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                  
+                  <!-- Name Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                    <label for="name" class="text-secondary small">Inserisci il tuo nome</label>
+                    <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                  </div>
+                  
+                  <!-- Email Input -->
+                  <div class="form-floating mb-3">
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                    <label for="emailAddress" class="text-secondary small">Inserisci la tua email</label>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                    <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                  </div>
+                  
+                  <!-- Message Input -->
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                    <label for="message" class="text-secondary small">Lasciaci un messaggio</label>
+                    <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                  </div>
+                  
+                  <!-- Submit success message -->
+                  <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center mb-3">
+                      <div class="fw-bolder">Form submission successful!</div>
+                      <p>To activate this form, sign up at</p>
+                      <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                  </div>
+                  
+                  <!-- Submit error message -->
+                  <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                  </div>
+                  
+                  <!-- Submit button -->
+                  <div class="d-grid">
+                    <button class="bg-acc text-white disabled  border-1 py-2 font-lato" id="submitButton" type="submit">
+                      invia
+                    </button>
+                  </div>
+                </form>
+                <!-- End of contact form -->
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--fine sito-->
+  <div class="container">
+    <footer class="row shadow row-cols-1 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+          <img src="immagini/logo/logo preferito.png" alt="">
+        </a>
+        <p class="tx-1">Vincenzo Cioffi © 2024</p>
+      </div>
+  
+      <div class="col mb-3">
+  
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="tx-1">Sezioni del sito</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Destinazioni</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Voli consigliati</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Prenota voli</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="tx-1">Info</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Privacy policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Termini d'uso</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">Copyright</a></li>
+        </ul>
+      </div>
+  
+      <div class="col mb-3">
+        <h5 class="tx-1">Seguici su</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">
+            <i class="bi bi-instagram tx-acc">Instagram</i>
+          </a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">
+            <i class="bi bi-facebook tx-acc">Facebook</i>
+          </a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary font-lato">
+            <i class="bi bi-twitter-x tx-acc">Twitter</i>
+          </a></li>
+        </ul>
+      </div>
+    </footer>
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

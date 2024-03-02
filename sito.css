@@ -58,3 +58,13 @@ body{
     height: 10%;
     background-color: var(--acc-color);
 }
+.destination-sticky{
+      position: sticky;
+      top: 120px;
+}
+.bg-image {
+    background-image: url(immagini/immagine\ modulo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
