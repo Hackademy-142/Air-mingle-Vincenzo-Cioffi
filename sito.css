@@ -8,7 +8,7 @@ body{
 :root{
     --det-color:#2989fb;
     --sec-color:#4c7c8f;  
-    --acc-color:#3c5766;
+    --acc-color: #3f3d56;
      
     
 }
@@ -23,7 +23,7 @@ body{
 }
 
 .tx-acc{
-    color: var(--acc-color);
+    color: var(--aac-color);
 }
 /*backcolor*/
 .bg-1{
@@ -68,59 +68,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
   }
-  header {
-    position: relative;
-    background-color: black;
-    height: 75vh;
-    min-height: 25rem;
-    width: 100%;
-    overflow: hidden;
-  }
   
-  header video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-  }
-  
-  header .container {
-    position: relative;
-    z-index: 2;
-  }
-  
-  header .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  
-  /* Media Query for devices withi coarse pointers and no hover functionality */
-  
-  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-  
-  @media (pointer: coarse) and (hover: none) {
-    header {
-      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-    }
-  
-    header video {
-      display: none;
-    }
-  }
   .carousel-item {
     height: 100vh;
     min-height: 350px;
@@ -128,5 +76,26 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+  }
+  .slide1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sfondi/sfondo1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .slide2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sfondi/sfondo2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .slide3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(sfondi/sfondo3.jpg);
+    background-position: center;
     background-size: cover;
   }
